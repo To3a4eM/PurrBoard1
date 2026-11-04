@@ -1,0 +1,7 @@
+{
+  "name": "PurrBoard - Collaborative Cat Whiteboard",
+  "description": "An interactive, real-time collaborative whiteboard in the spirit of Google Jamboard, reimagined with a cozy and delightful cat theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
