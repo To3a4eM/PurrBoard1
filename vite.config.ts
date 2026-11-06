@@ -3,6 +3,10 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/PurrBoard/',   // ← имя репозитория. Если репозиторий называется иначе — поменяй
+  base: '/PurrBoard/', // если нужно
   plugins: [react(), tailwindcss()],
+  server: {
+    host: true,                    // слушать на всех интерфейсах
+    allowedHosts: true,            // разрешить любой хост (включая trycloudflare.com)
+  },
 })
